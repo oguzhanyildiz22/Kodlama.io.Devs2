@@ -8,9 +8,9 @@ import KodlamaIo.devs.ProgrammingLanguages.business.responses.GetAllLanguagesRes
 
 public interface ProgrammingLanguageService {
 
-	void add(CreateLanguagesRequests createLanguagesRequests) throws Exception;
+	void add(CreateLanguagesRequests createLanguagesRequests);
 	void delete(int id);
-	void update(UpdateLanguagesRequests updateLanguagesRequests) throws Exception;
+	void update(UpdateLanguagesRequests updateLanguagesRequests);
 	
 	List<GetAllLanguagesResponse> getAll();
 	
