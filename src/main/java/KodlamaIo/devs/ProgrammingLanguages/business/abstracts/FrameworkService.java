@@ -8,9 +8,9 @@ import KodlamaIo.devs.ProgrammingLanguages.business.responses.GetAllFrameworksRe
 
 public interface FrameworkService {
 
-	void add(CreateFrameworksRequests createFrameworksRequests) throws Exception;
+	void add(CreateFrameworksRequests createFrameworksRequests) ;
 	void delete(int id);
-	void update(UpdateFrameworksRequests frameworksRequests) throws Exception;
+	void update(UpdateFrameworksRequests frameworksRequests) ;
 	
 	List<GetAllFrameworksResponse> getAll();
 }
